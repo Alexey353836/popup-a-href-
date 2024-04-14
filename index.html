@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup a href="#"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Кнопка -->
+        <a href="#form-1" class="btn popup-link">заказать</a>
+
+         <!-- Application form -->
+         <div id="form-1" class="application-form">
+            <div class="application-form__container">
+                <form action="index.html" method="" enctype="multipart/form-data" class="form">
+                    <h1 class="form__title">
+                        форма  заявки 1
+                    </h1>
+                    <input type="text" placeholder="Ваш город" name="city" value="">
+                    <input type="text" placeholder="Ваше имя" name="name" value="">
+                    <input type="email" placeholder="Ваш e-mail" name="e-mail" value="">
+                    <textarea name="text"placeholder="Ваше сщщбщение (марка автомобиля, цвет ковриков, немер телефона)"></textarea>
+                    <button class="btn" type="reset">Очистеть</button>
+                    <button class="btn" type="submit">Отправить</button>
+                    <button class="btn close-form" type="button">Закрыть</button>
+                    <a href="#form-2" class="btn btn_link popup-link">Открыть</a>
+                    <!-- <button class="btn open-next-forms popup-link" type="button">Открыть</button> -->
+                </form>
+            </div>
+        </div>
+        <div id="form-2" class="application-form">
+            <div class="application-form__container">
+                <form action="index.html" method="" enctype="multipart/form-data" class="form">
+                    <h1 class="form__title">
+                        форма  заявки 2
+                    </h1>
+                    <input type="text" placeholder="Ваш город" name="city" value="">
+                    <input type="text" placeholder="Ваше имя" name="name" value="">
+                    <input type="email" placeholder="Ваш e-mail" name="e-mail" value="">
+                    <textarea name="text"placeholder="Ваше сщщбщение (марка автомобиля, цвет ковриков, немер телефона)"></textarea>
+                    <button class="btn" type="reset">Очистеть</button>
+                    <button class="btn" type="submit">Отправить</button>
+                    <button class="btn close-form" type="button">Закрыть</button>
+                    <a href="#form-3" class="btn popup-link">Открыть</a>
+                </form>
+            </div>
+        </div>
+        <div id="form-3" class="application-form">
+            <div class="application-form__container">
+                <form action="index.html" method="" enctype="multipart/form-data" class="form">
+                    <h1 class="form__title">
+                        форма  заявки 3
+                    </h1>
+                    <input type="text" placeholder="Ваш город" name="city" value="">
+                    <input type="text" placeholder="Ваше имя" name="name" value="">
+                    <input type="email" placeholder="Ваш e-mail" name="e-mail" value="">
+                    <textarea name="text"placeholder="Ваше сщщбщение (марка автомобиля, цвет ковриков, немер телефона)"></textarea>
+                    <button class="btn" type="reset">Очистеть</button>
+                    <button class="btn" type="submit">Отправить</button>
+                    <button class="btn close-form" type="button">Закрыть</button>
+                    <a href="#form-1" class="btn popup-link">Открыть</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
